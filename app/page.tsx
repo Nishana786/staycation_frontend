@@ -53,15 +53,7 @@ export default function Home() {
               Explore Properties
             </Link>
 
-            <Link
-              href="/my-bookings"
-              className="group bg-linear-to-r from-[#2E7D32] to-[#1B5E20] text-white font-bold px-10 py-4 rounded-xl shadow-2xl hover:shadow-green-600/50 hover:from-[#1B5E20] hover:to-[#2E7D32] transition-all duration-300 transform hover:-translate-y-2 flex items-center justify-center gap-2"
-            >
-              Book Now
-              <span className="group-hover:translate-x-1 transition-transform">
-                →
-              </span>
-            </Link>
+           
           </div>
         </div>
 
