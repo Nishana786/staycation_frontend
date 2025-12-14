@@ -4,13 +4,11 @@ import {
   IndianRupee,
   BedDouble,
   Bath,
-  Users,
   Star,
   Home,
   Wifi,
   Car,
 } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
 async function getProperties() {

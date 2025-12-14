@@ -19,14 +19,14 @@ export default function LoginPage() {
     console.log("Login Response:", data);
 
     if (data.access_token) {
-      // Save token
+     
       localStorage.setItem("access_token", data.access_token);
 
-      // ⭐ Role check (correct way)
+     
       if (data.user.role === "admin") {
-        router.push("/admin");   // redirect to admin dashboard
+        router.push("/admin");   
       } else {
-        router.push("/");        // redirect normal user
+        router.push("/");      
       }
     } else {
       alert(data.message || "Login failed");
